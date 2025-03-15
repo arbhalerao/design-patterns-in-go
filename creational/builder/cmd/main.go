@@ -1,17 +1,32 @@
 package main
 
-import "github.com/abha1erao/design-patterns-in-go/creational/builder"
+import (
+	"fmt"
+
+	"github.com/abha1erao/design-patterns-in-go/creational/builder"
+)
 
 func main() {
-	request := builder.NewRequestBuilder().
-		SetMethod("POST").
-		SetURL("https://api.app.com/v1/users").
-		SetHeader("Content-Type", "application/json").
-		SetHeader("Authorization", "Bearer XYZ123").
-		SetQueryParam("limit", "50").
-		SetQueryParam("offset", "10").
-		SetBody(`{"username": "aditya", "email": "abha@gmail.com"}`).
+	// Builder
+	req := builder.NewRequestBuilder().
+		SetMethod("GET").
+		SetURL("https://example.com").
+		SetHeader("Accept", "application/json").
+		SetQueryParam("page", "1").
 		Build()
 
-	request.Describe()
+	req.Describe()
+
+	fmt.Println()
+
+	// Step Builder
+	stepReq := builder.NewRequestStepBuilder().
+		SetMethod("POST").
+		SetURL("https://example.com").
+		SetHeader("Content-Type", "application/json").
+		SetQueryParam("id", "123").
+		SetBody("{\"name\":\"test\"}").
+		Build()
+
+	stepReq.Describe()
 }
