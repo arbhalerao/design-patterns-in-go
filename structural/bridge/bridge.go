@@ -10,9 +10,9 @@ func NewRegularNotification(sender MessageSender) *RegularNotification {
 }
 
 // UrgentNotification (Refined Abstraction)
-type UrgentNotification struct {
-	Notification
-}
+// type UrgentNotification struct {
+// 	Notification
+// }
 
 // func NewUrgentNotification(sender MessageSender) *UrgentNotification {
 // 	return &UrgentNotification{Notification{sender}}
