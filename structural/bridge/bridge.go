@@ -14,6 +14,6 @@ type UrgentNotification struct {
 	Notification
 }
 
-func NewUrgentNotification(sender MessageSender) *UrgentNotification {
-	return &UrgentNotification{Notification{sender}}
-}
+// func NewUrgentNotification(sender MessageSender) *UrgentNotification {
+// 	return &UrgentNotification{Notification{sender}}
+// }
