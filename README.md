@@ -6,7 +6,7 @@ This repository contains Go implementations of various software design patterns.
 - [Singleton](https://github.com/arbha1erao/design-patterns-in-go/tree/master/creational/singleton)
 - [Factory](https://github.com/arbha1erao/design-patterns-in-go/tree/master/creational/factory)
 - [Builder](https://github.com/arbha1erao/design-patterns-in-go/tree/master/creational/builder)
-  - Step Builder
+  - [Step Builder](https://github.com/arbha1erao/design-patterns-in-go/tree/master/creational/builder)
 - [Prototype](https://github.com/arbha1erao/design-patterns-in-go/tree/master/creational/prototype)
 
 ### Structural Patterns
