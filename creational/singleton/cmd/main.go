@@ -3,7 +3,7 @@ package main
 import (
 	"sync"
 
-	"github.com/abha1erao/design-patterns-in-go/creational/singleton"
+	"github.com/arbhalerao/design-patterns-in-go/creational/singleton"
 )
 
 func main() {

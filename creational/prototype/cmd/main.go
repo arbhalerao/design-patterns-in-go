@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/abha1erao/design-patterns-in-go/creational/prototype"
+	"github.com/arbhalerao/design-patterns-in-go/creational/prototype"
 )
 
 func main() {

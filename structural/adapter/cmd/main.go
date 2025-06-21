@@ -1,6 +1,6 @@
 package main
 
-import "github.com/abha1erao/design-patterns-in-go/structural/adapter"
+import "github.com/arbhalerao/design-patterns-in-go/structural/adapter"
 
 func main() {
 	// Using New Logger Directly

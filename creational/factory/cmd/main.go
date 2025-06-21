@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/abha1erao/design-patterns-in-go/creational/factory"
+	"github.com/arbhalerao/design-patterns-in-go/creational/factory"
 )
 
 func main() {

@@ -1,6 +1,6 @@
 package main
 
-import "github.com/abha1erao/design-patterns-in-go/structural/bridge"
+import "github.com/arbhalerao/design-patterns-in-go/structural/bridge"
 
 func main() {
 	emailSender := &bridge.EmailSender{}

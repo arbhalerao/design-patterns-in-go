@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/abha1erao/design-patterns-in-go/creational/builder"
+	"github.com/arbhalerao/design-patterns-in-go/creational/builder"
 )
 
 func main() {
